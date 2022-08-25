@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+div.header{
+    padding: 0 15px;
+    height: 60px;
+    background-color: rgba(83, 83, 83, 0.801);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .dropdownText{
+    color: white;
+}
+.header .brushSize{
+    display: flex;
+    align-items: center;
+}
+.header .fa-brush , .header .fa-fill-drip{
+    font-size: 20px;
+    color: white;
+}
+.header .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.801);
+    width: 30px;
+    height: 35px;
+    color: white;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.header .selectedItemName{
+    width: 60px;
+}
+.header .colorPalette{
+    width: 75px;
+}
+.header #fontSize{
+    width: 70px;
+    outline: none;
+}
+.header #getColor{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.paintBody{
+    height: calc(100vh - 60px);
+    cursor: crosshair;
+}
+div.span{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#canvas{
+    width: 100%;
+    height: 100%;
+}
